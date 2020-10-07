@@ -1,0 +1,12 @@
+.CategoryList li {
+  font-size: 1.6rem;
+  list-style: none;
+  transition: 0.3s;
+}
+.CategoryList li:hover {
+  color: #d9121f;
+  cursor: pointer;
+}
+.CategoryList {
+  margin: 2rem;
+}

@@ -1,0 +1,25 @@
+.NavItems {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+  justify-content: space-evenly;
+}
+.NavItems li {
+  padding: 1.5rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.NavItems li:hover {
+  color: #ca302c;
+}
+
+@media screen and (max-width: 800px) {
+  .NavItems {
+    display: none;
+  }
+}

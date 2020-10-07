@@ -1,0 +1,44 @@
+.ShpCatgdiv {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ShopCategory {
+  width: 50%;
+  height: 30rem;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+.MenFash {
+  background-image: url(../Images//menfash.png);
+  background-size: 22rem;
+  background-repeat: no-repeat;
+}
+.WomenFash {
+  background-image: url(../Images//womenfash.png);
+  background-size: 23rem;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.Topic {
+  font-size: 2.5rem;
+  color: black;
+  width: fit-content;
+  font-weight: 500;
+  align-self: center;
+  border-bottom: 3px solid red;
+}
+.ListCat {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-top: 1rem;
+}

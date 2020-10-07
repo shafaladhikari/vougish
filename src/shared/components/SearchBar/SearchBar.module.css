@@ -1,0 +1,17 @@
+.SearchBar {
+  width: 35rem;
+  height: 4.5rem;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  background: #eee;
+  justify-content: space-between;
+  border-radius: 3rem;
+}
+@media screen and (max-width: 800px) {
+  .SearchBar {
+    width: 100%;
+    border-radius: 0;
+    height: 4rem;
+  }
+}

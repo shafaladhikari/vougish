@@ -1,0 +1,32 @@
+.Heading {
+  font-size: 5rem;
+  font-weight: 700;
+  width: 30%;
+  color: #111111;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 15%;
+  left: 8%;
+  z-index: 10;
+}
+.MainSlick img {
+  width: 100%;
+}
+.MainSlick {
+  height: 70nvh;
+  width: 100%;
+  outline: none;
+  position: relative;
+}
+
+@media screen and (max-width: 800px) {
+  .Heading {
+    font-size: 1.6rem;
+    width: 35%;
+  }
+  .MainSlick {
+    height: 20rem;
+  }
+}

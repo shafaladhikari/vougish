@@ -1,0 +1,42 @@
+.Button {
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+  padding: 0.5rem;
+}
+.CartButton {
+  border: 1px solid black;
+  border-radius: 10rem;
+  width: 16rem;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  padding: 0.8rem 2rem;
+  background: none;
+}
+.LoginBtn {
+  width: 40%;
+  height: 4rem;
+  border-radius: 4rem;
+  background: #d9121f;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.ShopBtn {
+  width: 15rem;
+  height: 4rem;
+  border-radius: 10rem;
+  background: #d9121f;
+  color: white;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .ShopBtn {
+    margin-top: 1.5rem;
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+}

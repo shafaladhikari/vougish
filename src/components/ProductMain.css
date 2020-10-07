@@ -1,0 +1,75 @@
+.Product-Main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.Product-Main img {
+  width: 30rem;
+}
+.Productabout {
+  width: 40rem;
+}
+.Productabout h2 {
+  font-size: 2rem;
+}
+.Productabout p {
+  font-size: 1.4rem;
+}
+.RatingIcon {
+  display: flex;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+.RatingIcon svg {
+  width: 1.6rem;
+  height: 1.6rem;
+  fill: rgb(255, 165, 0);
+}
+.RatingIcon .ratingnon {
+  fill: #aaaaaa;
+}
+.cartadd {
+  border: 1px solid #cccccc;
+  margin-top: 2rem;
+}
+.buynow {
+  background: #1c4bac;
+  margin-top: 2rem;
+  color: white;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.quantitydiv {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.quantitydiv svg {
+  width: 3rem;
+  height: 3rem;
+  fill: #1c4bac;
+}
+.Product-Price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #cccccc;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  padding: 3rem;
+  width: 30rem;
+  text-align: center;
+  align-items: center;
+}
+.Product-Price h1 {
+  font-size: 2.4rem;
+  color: red;
+}
+.Product-Price h3 {
+  font-size: 1.6rem;
+}

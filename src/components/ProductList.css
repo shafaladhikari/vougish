@@ -1,0 +1,11 @@
+.ProductList {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.MainProduct {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}

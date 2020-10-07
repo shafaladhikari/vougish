@@ -1,0 +1,40 @@
+.InputGroup {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.Input {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 3rem;
+  border: none;
+  outline: none;
+  background: #eee;
+}
+.Label {
+  font-size: 1.3rem;
+  margin: 0 1rem;
+  color: #999;
+}
+.SearchInput {
+  width: 100%;
+  padding: 0;
+}
+.Quantity {
+  padding: 0;
+  margin: 0;
+  height: 3rem;
+}
+.Quantity input {
+  width: 6rem;
+  border-radius: 0;
+  background: none;
+  padding: 1rem;
+  text-align: center !important;
+}
+@media screen and (max-width: 800px) {
+  .SearchInput input {
+    padding: 0;
+    height: 100%;
+    padding: 1rem;
+  }
+}
