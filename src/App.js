@@ -12,7 +12,7 @@ import Header from "./shared/components/Header/Header";
 import Home from "./Pages/Home";
 import Cart from "./Pages/Cart";
 import Footer from "./shared/components/Footer/Footer";
-import ProductMain from "./components/ProductMain";
+import ProductMain from "./Pages/ProductMain";
 import ScrollToTop from "./ScrollToTop";
 
 const App = () => {

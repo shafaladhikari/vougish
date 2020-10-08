@@ -1,0 +1,28 @@
+.Alert {
+  width: 20rem;
+  height: 4rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  position: fixed;
+  top: 12rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.2);
+  justify-content: space-around;
+  z-index: 100;
+  right: 0;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+.Alert svg {
+  width: 2rem;
+  height: 2rem;
+  fill: #ffffff;
+}
+.Success {
+  background: green;
+}
+.Error {
+  background: red;
+}

@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-around;
   padding: 2rem;
+  border-bottom: 1px solid #cccccc;
 }
 .Product-Main img {
   width: 30rem;

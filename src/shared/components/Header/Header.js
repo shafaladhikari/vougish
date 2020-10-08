@@ -8,7 +8,7 @@ const Header = (props) => {
   const [cart, setCartNumber] = useState({ cartNumber: 0, totalPrice: 0.0 });
   useEffect(() => {
     if (cartContext.cart) {
-      const cart = cartContext.cart;
+      const cart = cartContext.cart.products;
       const cartNumber = cart.length;
       let totalPrice = 0;
       cart.map((product) => (totalPrice = totalPrice + product.price));
