@@ -15,6 +15,7 @@ const ProductList = (props) => {
             price={product.price}
             isSale={product.onSale}
             isNew={product.isNew}
+            stock={product.stock}
           />
         ))}
       </div>

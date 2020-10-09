@@ -1,8 +1,6 @@
 import React from 'react';
 import Button from '../shared/components/Button/Button';
 import './CartItem.css';
-import Icon from '../shared/Icons/Icon';
-import Input from '../shared/components/Input/Input';
 const CartItem = ({product, removeItem}) => {
     return (
     <div className="Item-table" key={product.id}>

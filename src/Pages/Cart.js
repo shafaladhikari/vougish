@@ -43,7 +43,7 @@ const Cart = () => {
         <h1 className="Topic">Shopping Cart</h1>
         {!products || products.length !== 0 ? (
           products.map((product) => (
-            <CartItem removeItem = {removeItemHandler}product={product}/>
+            <CartItem key={product.id} removeItem = {removeItemHandler}product={product}/>
           ))
         ) : (
           <div className="Item-table">
