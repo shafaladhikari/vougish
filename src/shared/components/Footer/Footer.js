@@ -41,7 +41,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="Footer-Bottom">lalala</div>
     </div>
   );
 };

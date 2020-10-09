@@ -29,9 +29,52 @@
 }
 .cartdeletebtn {
   width: 8rem;
+  justify-self: flex-end;
+  align-self: flex-end;
   height: 3rem;
+  margin-top: 5rem;
   border-radius: 3rem;
   background-color: red;
   color: white;
   cursor: pointer;
 }
+@media screen and (max-width: 700px) {
+  .Item-table {
+    width: 100%;
+    /* flex-direction: column; */
+    padding-bottom: 1rem;
+  }
+  .item-column {
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    width: 8rem;
+  }
+  .nothingCart {
+    width: 60% !important;
+    margin-top: 5rem;
+    text-align: center;
+  }
+  .nothingCart h3 {
+    border-bottom: none !important;
+  }
+  .item-column img {
+    width: 5rem;
+  }
+  .item-column h3 {
+    font-size: 1.2rem;
+  }
+  .item-column span {
+    font-size: 0.8rem;
+  }
+  .cartdeletebtn {
+    width: 5rem;
+    height: 2rem;
+    margin-top: 1rem;
+    border-radius: 3rem;
+    background-color: red;
+    font-size: 0.8rem;
+    color: white;
+    cursor: pointer;
+  }
+} ;

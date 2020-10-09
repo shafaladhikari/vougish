@@ -32,6 +32,9 @@ const ProductMain = () => {
   const inputChangeHandler = (e) => {
     setQuantity(e.target.value);
   };
+  const hideAlert = () => {
+    setShowAlert(false)
+  }
   const productsRelated = useState([
     {
       id: 1,
@@ -167,7 +170,7 @@ const ProductMain = () => {
           <div>
             <input type="checkbox" />I agree with the terms and conditions
           </div>
-          <Button btnClass="ContactBtn cartadd" onClick={addToCartHandler}>
+          <Button hideAlert = {hideAlert} btnClass="ContactBtn cartadd" onClick={addToCartHandler}>
             Add to Cart
           </Button>
           <Button btnClass="ContactBtn buynow">Buy Now</Button>

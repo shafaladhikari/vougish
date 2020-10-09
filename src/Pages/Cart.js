@@ -47,7 +47,7 @@ const Cart = () => {
           ))
         ) : (
           <div className="Item-table">
-            <div className="item-column">
+            <div className="item-column nothingCart">
               <h3>Nothing is in the cart</h3>
             </div>
           </div>

@@ -1,11 +1,9 @@
 .Footer {
-  display: grid;
-  grid-template-columns: repeat(1fr, 5);
-  grid-template-rows: 8rem 30rem 8rem;
+  display: flex;
+  flex-direction: column;
+  height: auto;
 }
 .Footer-Top {
-  grid-row: 1/2;
-  grid-column: 1/6;
   padding: 3rem 5rem;
   display: flex;
   align-items: center;
@@ -13,14 +11,7 @@
   background: rgb(38, 38, 38);
 }
 .Footer-Main {
-  grid-row: 2/3;
-  grid-column: 1/6;
   padding: 5rem;
-  background: #1f1f1f;
-}
-.Footer-Bottom {
-  grid-row: 3/4;
-  grid-column: 1/6;
   background: #1f1f1f;
 }
 .footercontact {
@@ -66,6 +57,7 @@
 }
 .footersocialicons {
   display: flex;
+  margin-top: 1rem;
   width: 15rem;
   justify-content: space-between;
 }
@@ -78,4 +70,39 @@
   position: relative;
   top: 3rem;
   left: -3rem;
+}
+@media screen and (max-width: 700px) {
+  .Footer {
+    grid-template-columns: 1fr;
+    overflow: hidden;
+  }
+  .Footer-Top {
+    flex-wrap: wrap;
+    padding: 2rem 3rem;
+  }
+  .footerheading {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+  }
+  .footersubheading {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+  .footercontacticon {
+    position: relative;
+    top: 3rem;
+    left: -2rem;
+  }
+  .ContactBtn {
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.2rem;
+  }
+  .footersocialicons {
+    width: 12rem;
+  }
+  .footericon {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
 }

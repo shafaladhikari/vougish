@@ -15,18 +15,16 @@ const CartItem = ({product, removeItem}) => {
     <div className="item-column">
       <h3>Quantity</h3>
       <span>1</span>
-    </div>
-    <div className="item-column">
-      <h3>Price</h3>
-      <span className="cartprice">Rs. {product.price}</span>
-    </div>
-    <div className="item-column">
       <Button
         onClick={() => removeItem(product.id)}
         btnClass="cartdeletebtn"
       >
         Remove
       </Button>
+    </div>
+    <div className="item-column">
+      <h3>Price</h3>
+      <span className="cartprice">Rs. {product.price}</span>
     </div>
   </div> 
   );
