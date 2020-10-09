@@ -16,7 +16,6 @@ const cartReducer = (currentCart, action) => {
         }
         return false;
       };
-      console.log(containsObject(currentCart.products, action.product));
       if (!containsObject(currentCart.products, action.product)) {
         localStorage.setItem(
           "products",
