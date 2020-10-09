@@ -1,0 +1,37 @@
+.Item-table {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+.item-column {
+  height: auto;
+  width: 20rem;
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cccccc;
+}
+.item-column h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  border-bottom: 2px solid red;
+}
+.item-column span {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.item-column img {
+  width: 10rem;
+}
+.cartprice {
+  color: Red;
+}
+.cartdeletebtn {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 3rem;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}

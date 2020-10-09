@@ -1,5 +1,5 @@
 .Alert {
-  width: 20rem;
+  min-width: 20rem;
   height: 4rem;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;

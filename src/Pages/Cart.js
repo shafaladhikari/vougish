@@ -1,8 +1,9 @@
 import React, { useContext, useEffect, useState } from "react";
 import "./Cart.css";
 import { CartContext } from "../Cart/cart-context";
-import Button from "../shared/components/Button/Button";
 import Alert from "../shared/components/Alert/Alert";
+import CartItem from "../components/CartItem";
+
 const Cart = () => {
   const [products, createProduct] = useState([]);
   const [showAlert, setShowAlert] = useState(false);
@@ -42,32 +43,7 @@ const Cart = () => {
         <h1 className="Topic">Shopping Cart</h1>
         {!products || products.length !== 0 ? (
           products.map((product) => (
-            <div className="Item-table" key={product.id}>
-              <div className="item-column">
-                <h3>Image</h3>
-                <img src={product.image} alt={product.name} />
-              </div>
-              <div className="item-column">
-                <h3>Name</h3>
-                <span>{product.name}</span>
-              </div>
-              <div className="item-column">
-                <h3>Quantity</h3>
-                <span>1</span>
-              </div>
-              <div className="item-column">
-                <h3>Price</h3>
-                <span className="cartprice">Rs. {product.price}</span>
-              </div>
-              <div className="item-column">
-                <Button
-                  onClick={() => removeItemHandler(product.id)}
-                  btnClass="cartdeletebtn"
-                >
-                  Remove
-                </Button>
-              </div>
-            </div>
+            <CartItem removeItem = {removeItemHandler}product={product}/>
           ))
         ) : (
           <div className="Item-table">

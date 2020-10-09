@@ -10,7 +10,7 @@ const cartReducer = (currentCart, action) => {
     case "ADD":
       const containsObject = (arr, obj) => {
         for (let i = 0; i < arr.length; i++) {
-          if (arr[i] === obj) {
+          if (arr[i].id === obj.id) {
             return true;
           }
         }

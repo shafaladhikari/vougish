@@ -47,7 +47,7 @@ const ProductCard = (props) => {
             <span className="Prod-name">{props.name}</span>
             <span className="Prod-price">Rs. {props.price}</span>
             <Button onClick={addtoCart} btnClass="CartButton">
-              <Icon clName="CartIcon" SvgName="#icon-shopping-cart" /> Add to
+              <Icon clName="CartIcon" SvgName="#icon-shopping-cart" />Add to
               Cart
             </Button>
           </div>
